@@ -3,6 +3,11 @@ import { getStory } from "../api/HackerNewsAPI";
 import { UnixTime } from "../utils/UnixTime";
 import "../styles/Story.css";
 
+/**
+ * displays the individual stories.
+ *
+ */
+
 function Story({ storyId, submitStory }) {
   const [story, setStory] = useState({});
 

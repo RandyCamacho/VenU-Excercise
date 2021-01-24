@@ -1,6 +1,10 @@
 import React from "react";
 import "../styles/Header.css";
 
+/**
+ * Header for StoriesContainer
+ */
+
 function Header({ values }) {
   return (
     <div className="header_container">

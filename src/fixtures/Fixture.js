@@ -1,3 +1,8 @@
+/**
+ * used for testing
+ * mock a post
+ */
+
 export const singleStory = {
   by: "Test User",
   id: 1,
