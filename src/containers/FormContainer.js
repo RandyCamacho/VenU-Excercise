@@ -25,7 +25,7 @@ function FormContainer({ submitForm }) {
     <div className="form_wrapper">
       <div className="form_container">
         <img className="logo" src={Logo} alt="VenU"></img>
-        <h2> Please Fill out the Form to Continue</h2>
+        {/* <h2> Please Fill out the Form to Continue</h2> */}
         <form className="form" onSubmit={handleSubmit} noValidate>
           <div className="first_name">
             <label>First Name:</label>
